@@ -15,7 +15,6 @@ int main(void)
     printf("Enter decimal value for position %d: ", position);
     scanf("%d", &decimal_value);
 
-    // NESTED LOOP TIME calculate 16^position
     power_of_16 = 1;
     for (int i = 0; i < position; i++) {
       power_of_16 *= 16;
